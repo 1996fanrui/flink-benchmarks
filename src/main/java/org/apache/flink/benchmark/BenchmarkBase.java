@@ -41,6 +41,6 @@ import static org.openjdk.jmh.annotations.Scope.Thread;
             "-Dcom.sun.management.jmxremote.ssl=false",
             "-Dcom.sun.management.jmxremote.ssl"
         })
-@Warmup(iterations = 10)
-@Measurement(iterations = 10)
+@Warmup(iterations = 30)
+@Measurement(iterations = 60)
 public class BenchmarkBase {}
